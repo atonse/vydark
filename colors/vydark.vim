@@ -15,19 +15,19 @@ endif
 let g:colors_name="vydark"
 
 
-hi Normal        guifg=#bbbbbb  guibg=#282828
+hi Normal        guifg=#bbbbbb  guibg=#111111
 hi Title         guifg=white
 hi Cursor        guibg=#ffffff
-hi LineNr        guifg=#444455  guibg=#292929
+hi LineNr        guifg=#777788  guibg=#292929
 hi Visual        guibg=#555555
-hi NonText       guifg=#292929  guibg=#292929
+hi NonText       guifg=#111111 guibg=#111111
 hi StatusLine    guifg=#bbbbbb  guibg=#353535  gui=none
 hi StatusLineNC  guifg=#777777  guibg=#353535  gui=none
 hi VertSplit     guifg=#353535  guibg=#353535  gui=none
 hi ModeMsg       guifg=#99dd99  guibg=#394439  gui=none
 hi ErrorMsg      guifg=#222222  guibg=#ff8888  gui=none
 hi Error         guifg=#ffaaaa  guibg=#333333  gui=none
-
+hi Folded        guifg=#777788  guibg=#292929  gui=none
 
 " Vim 7.x specific
 if version >= 700
@@ -56,6 +56,9 @@ hi Delimiter     guifg=#99bbdd  gui=none
 hi PreProc       guifg=#88ddcc  gui=none
 hi Special       guifg=#99dd99  gui=bold
 hi Keyword       guifg=#bbbbbb  gui=none
+
+" NERDTree customizations
+hi Directory     guifg=#99bbcc  gui=none
 
 hi link Function        Normal
 hi link Character       Constant
