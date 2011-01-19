@@ -60,6 +60,10 @@ hi Keyword       guifg=#bbbbbb  gui=none
 " NERDTree customizations
 hi Directory     guifg=#99bbcc  gui=none
 
+" TagList customizations
+hi link TagListFileName Directory
+hi link FoldColumn      LineNr
+
 hi link Function        Normal
 hi link Character       Constant
 hi link String          Constant
